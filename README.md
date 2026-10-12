@@ -33,7 +33,7 @@ Os dados foram extraídos do projeto [Base dos Dados](https://basedosdados.org/)
 2. Os scripts de extração do BigQuery estão na pasta `/scripts_sql`.
 3. Para visualizar o resultado final e a interface do dashboard, confira as capturas de tela na pasta `/images` ou acesse a versão exportada em PDF na pasta `/dashboard`.
 
-![Dashboard](dashboard/Dash_pdf.pdf)
+![Dashboard](image/Power_bi_captura.png)
 
 ## 💡 Principais Insights Analíticos
 
@@ -56,7 +56,7 @@ CALCULATE(
     MEDIAN('Fato_Estabelecimentos'[Capital_Social]),
     'Dim_Status'[Descricao_Status] = "Ativa"
 )
-
+```
 ## 👨‍💻 Autor
 **[Kelvin Albert Boanerges Gonçalves Rosa]**
 - [[LinkedIn](https://www.linkedin.com/in/kelvin-rosa-670a8a19b/)]
