@@ -9,7 +9,7 @@ O mercado de saúde, estética e cuidados pessoais tem apresentado forte crescim
 A análise cruza dados demográficos com o histórico de abertura e fechamento de empresas (CNPJs) para responder:
 - Qual a taxa de sobrevivência das clínicas de estética na região?
 - Quais bairros possuem a maior defasagem de serviços em relação à sua população?
-- Como o mercado se comportou após no ano de 2025 e 2026?
+- Como o mercado se comportou ao longo dos anos de 2025 e 2026?
 
 ## 🏗️ Arquitetura da Solução
 1. **Extração na Nuvem:** Consultas SQL no Google BigQuery utilizando o datalake público da *Base dos Dados*.
