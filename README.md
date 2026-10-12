@@ -16,8 +16,12 @@ A análise cruza dados demográficos com o histórico de abertura e fechamento d
 2. **Modelagem:** Armazenamento e estruturação em Star Schema (Fato e Dimensão) utilizando Microsoft SQL Server.
 3. **Visualização:** Dashboard interativo em Power BI para exploração executiva.
 
-> [!NOTE]
-> *Insira aqui a imagem do diagrama de arquitetura do projeto quando estiver pronto.*
+![Diagrama Relacional - Star Schema](images/modelo_star_schema.png)
+
+**Detalhes da Modelagem:**
+- **Fato_Estabelecimentos:** Tabela central contendo as métricas de negócio, datas de abertura/fecho e capital social. A granularidade é a nível de CNPJ único (garantida via tratamento de dados).
+- **Dim_Geografia:** Dimensão de contexto espacial (Bairros de Belo Horizonte).
+- **Dim_Status:** Dimensão que categoriza a situação cadastral (Ativa, Baixada, etc.).
 
 ## 🗂️ Fontes e Dicionário de Dados
 Os dados foram extraídos do projeto [Base dos Dados](https://basedosdados.org/):
